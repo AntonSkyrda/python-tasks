@@ -1,3 +1,11 @@
+with open("grades.txt", "w", encoding="utf-8") as f:
+    f.write("John 90\n")
+    f.write("Hannah 85\n")
+    f.write("Hannah 95\n")
+    f.write("Marry 78\n")
+    f.write("John 75\n")
+    f.write("Marry 82\n")
+
 grades = {}
 
 with open("grades.txt", "r", encoding="utf-8") as f:
